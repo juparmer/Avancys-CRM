@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:odoo-rpc-v2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/odoo-rpc-v2.aar/e2a2a948c2047b23f0e8ea5a9b7118b4/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/odoo-rpc-v2.aar/e2a2a948c2047b23f0e8ea5a9b7118b4/jars/libs/core.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/odoo-rpc-v2.aar/e2a2a948c2047b23f0e8ea5a9b7118b4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

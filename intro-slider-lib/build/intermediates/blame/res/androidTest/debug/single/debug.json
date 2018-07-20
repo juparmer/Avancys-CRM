@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_device_frame.png.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/device_frame.png"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/layout_slider_default_view.xml.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/layout/slider_default_view.xml"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/drawable_intro_slider_dot_bg.xml.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/drawable/intro_slider_dot_bg.xml"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/layout_default_ui.xml.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/layout/default_ui.xml"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "/home/juan/Descargas/crm-master/intro-slider-lib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+    }
+]
