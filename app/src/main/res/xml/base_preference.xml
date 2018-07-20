@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="account_sync_settings"
+        android:title="@string/config_line1_1">
+        <PreferenceScreen
+            android:key="account_settings"
+            android:summary="@string/config_line1_2"
+            android:title="@string/config_line1_1">
+            <intent android:action="android.settings.SYNC_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="sync_interval_settings"
+        android:title="@string/config_line2_1">
+        <ListPreference
+            android:defaultValue="1440"
+            android:entries="@array/syncInterval"
+            android:entryValues="@array/syncIntervalValues"
+            android:key="sync_interval"
+            android:summary="@string/config_line2_2"
+            android:title="@string/config_line2_1" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="sync_data_limit_settings"
+        android:title="@string/config_line3_1">
+        <ListPreference
+            android:defaultValue="60"
+            android:entries="@array/syncDataLimit"
+            android:entryValues="@array/syncDataLimitValues"
+            android:key="sync_data_limit"
+            android:summary="@string/config_line3_3"
+            android:title="@string/config_line3_2" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/config_line4_1"
+        android:key="notification_settings">
+        <RingtonePreference
+            android:key="phonecall_notification_ringtone"
+            android:title="@string/config_line4_2"
+            android:ringtoneType="notification"
+            android:defaultValue="@string/notification_default_ring_tone"
+            android:summary="@string/config_line4_3" />
+        <SwitchPreference
+            android:key="hands_up_notification"
+            android:title="@string/config_line4_4"
+            android:summary="@string/config_line4_5"
+            android:summaryOff="@string/config_line4_6"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/config_line5_1"
+        android:key="crm_lead_settings">
+        <Preference
+            android:key="lead_work_day_start_time"
+            android:title="@string/config_line5_2"
+            android:summary="@string/config_line5_3" />
+    </PreferenceCategory>
+    <!--<PreferenceCategory-->
+    <!--android:title="Phone calls"-->
+    <!--android:key="crm_phonecalls_settings">-->
+    <!--<SwitchPreference-->
+    <!--android:key="phonecall_allow_caller_window"-->
+    <!--android:title="Show caller window"-->
+    <!--android:summary="Allow application to show caller window with customer opportunity"-->
+    <!--android:summaryOff="Enable to show latest opportunity detail of caller customer"-->
+    <!--android:defaultValue="true" />-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory
+        android:key="application_about"
+        android:title="@string/title_about">
+        <Preference
+            android:icon="@drawable/ic_odoo_o"
+            android:title="@string/summary_about_odoo_mobile">
+            <intent android:action="com.odoo.ACTION_ABOUT" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
