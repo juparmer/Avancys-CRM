@@ -97,7 +97,8 @@
                 app:fieldTextSize="@dimen/text_size_xmedium"
                 app:fieldTextAppearance="?android:textAppearanceMedium"
                 app:showIcon="false"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
 
 
             <View style="@style/ViewSeparator" />
